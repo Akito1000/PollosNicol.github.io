@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Información | Pollos Nycol</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-white">
+
+<nav class="navbar navbar-expand-lg navbar-dark px-4">
+  <a class="navbar-brand fw-bold text-warning" href="index.html">POLLOS NICOL</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav flex-wrap">
+      <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="contenido_general.html" id="marcoDropdown" role="button">
+        Marco Teórico
+      </a>
+      <ul class="dropdown-menu bg-dark" aria-labelledby="marcoDropdown">
+      <li><a class="dropdown-item text-white custom-hover" href="introduccion.html">Introducción</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="antecedenes.html">Antecedentes</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="planteamiento.html">Planteamiento del problema</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="arbol.html">Árbol de problemas</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="formulacion.html">Formulación del problema</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="proposito.html">Propósito del estudio</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="metodo.html">Método</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="planificacion.html">Planificación de actividades</a></li>
+      </ul>
+      </li>
+
+
+
+       <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="paradigma.html">Paradigma del Análisis Estructurado</a>
+  <ul class="dropdown-menu bg-dark">
+    <li><a class="dropdown-item text-white custom-hover" href="contexto.html">Contexto</a></li>
+    
+    <li class="dropdown-submenu">
+      <a class="dropdown-item dropdown-toggle text-white custom-hover" href="flujo.html">Diagrama de Flujo de Datos</a>
+      <ul class="dropdown-menu bg-dark">
+        <li><a class="dropdown-item text-white custom-hover" href="nivel1.html">Nivel 0</a></li>
+        <li><a class="dropdown-item text-white custom-hover" href="nivel2.html">Nivel 1</a></li>
+      </ul>
+    </li>
+
+    <li><a class="dropdown-item text-white custom-hover" href="diccionario.html">Diccionario de Datos</a></li>
+    
+    <li class="dropdown-submenu">
+      <a class="dropdown-item dropdown-toggle text-white custom-hover" href="estructura.html">Diagrama de Estructura </a>
+      <ul class="dropdown-menu bg-dark">
+        <li><a class="dropdown-item text-white custom-hover" href="1.html">1. Validar Usuario</a></li>
+        <li><a class="dropdown-item text-white custom-hover" href="2.html">2. Registrar Pedido</a></li>
+        <li><a class="dropdown-item text-white custom-hover" href="3.html">3. Generar Código de Pedido</a></li>
+        <li><a class="dropdown-item text-white custom-hover" href="4.html">4. Guardar Pedido</a></li>
+        <li><a class="dropdown-item text-white custom-hover" href="5.html">5. Emitir Factura</a></li>
+      </ul>
+    </li>
+
+    <li><a class="dropdown-item text-white custom-hover" href="diseño.html">Diseño Estructurado</a></li>
+
+  </ul>
+</li>
+
+
+       <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="oo.html" id="marcoDropdown" role="button">
+        Orientado a Objetos
+      </a>
+      <ul class="dropdown-menu bg-dark" aria-labelledby="marcoDropdown">
+        <li class="dropdown-submenu">
+      <a class="dropdown-item dropdown-toggle text-white custom-hover" href="anaYdise.html">Análisis y Diseño</a>
+      <ul class="dropdown-menu bg-dark">
+        <li><a class="dropdown-item text-white custom-hover" href="anaYdise1.html">Diagramas de casos de uso</a></li>
+        <li><a class="dropdown-item text-white custom-hover" href="anaYdise2.html">Descripcion del Diagrama</a></li>
+      </ul>
+      </li>
+      <li><a class="dropdown-item text-white custom-hover" href="diagraClases.html">Diagrama de clases</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="diagraActivi.html">Diagrama de actividades</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="diagraSecuen.html">Diagrama de secuencias</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="diagraRela.html">Diagrama de relacional</a></li>
+      </ul>
+      </li>
+
+       <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="contenido_general.html" id="marcoDropdown" role="button">
+        Videos
+      </a>
+      <ul class="dropdown-menu bg-dark" aria-labelledby="marcoDropdown">
+      <li><a class="dropdown-item text-white custom-hover" href="introduccion.html">Entrevista</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="antecedenes.html">Encuesta</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="antecedenes.html">Preguntas</a></li>
+      </ul>
+      </li>
+
+      
+      <li class="nav-item"><a class="nav-link" href="menu.html">Contactos</a></li>
+      
+
+
+    </ul>
+    <div class="d-flex align-items-center ms-3 social-icons">
+      <a href="https://www.facebook.com/pollos.nicol.7" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/" class="text-white"><i class="bi bi-instagram"></i></a>
+    </div>
+  </div>
+</nav>
+
+
+
+      
+<div class="container mt-5">
+        <h2 class="text-center text-warning mb-4">📝 III.- ANÁLISIS Y DISEÑO ORIENTADO A OBJETOS </h2>
+        <p>
+          Aplicar en la estructura el paradigma Orientada a objetos.
+        </p>
+        <h4 class="text-info mt-4">a)	Metodología de Análisis y Diseño Mencionar: XP</h4>
+        <h4 class="text-info mt-4">#Diagramas básicos:</h4>
+        <h4 class="text-info mt-4">#Diagramas de casos de uso</h4>
+
+        <div class="container">
+          <img src="images/Imagen3.png" alt="Delicioso Sandwich" class="img-fluid mb-4" style="max-width: 500px;">
+        </div>
+
+        <div class="container">
+          <img src="images/Imagen4.png" alt="Delicioso Sandwich" class="img-fluid mb-4" style="max-width: 500px;">
+        </div>
+
+       <h4 class="text-info mt-5">👥 Descripción de los actores</h4>
+
+<!-- Tabla: Actor Cajero -->
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <thead class="table-warning text-dark">
+      <tr>
+        <th>Actor</th>
+        <td>Cajero</td>
+      </tr>
+      </thead>
+      <tr>
+        <th>Descripción</th>
+        <td>El cajero es quien se encarga de la verificación del pedido del cliente, así como también emitirá su respectiva factura a dicho cliente.</td>
+      </tr>
+      <tr>
+        <th>Características</th>
+        <td>Verifica, emite factura.</td>
+      </tr>
+      <tr>
+        <th>Relaciones</th>
+        <td>Cliente</td>
+      </tr>
+      <tr>
+        <th>Referencias</th>
+        <td>Encuesta realizada a los cajeros</td>
+      </tr>
+      <tr>
+        <th>Autor</th>
+        <td>Desarrollador</td>
+      </tr>
+      <tr>
+        <th>Fecha</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Versión</th>
+        <td>1.0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Tabla: Actor Cliente -->
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead class="table-warning text-dark">
+      <tr>
+        <th>Actor</th>
+        <td>Cliente</td>
+      </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <th>Descripción</th>
+        <td>El cliente únicamente hace su reserva de su pedido a través del sistema obteniendo su código respectivo para pasar por caja.</td>
+      </tr>
+      <tr>
+        <th>Características</th>
+        <td>Realiza su reserva de su pedido</td>
+      </tr>
+      <tr>
+        <th>Relaciones</th>
+        <td>Cajero</td>
+      </tr>
+      <tr>
+        <th>Referencias</th>
+        <td>Encuesta realizada a los cajeros</td>
+      </tr>
+      <tr>
+        <th>Autor</th>
+        <td>Desarrollador</td>
+      </tr>
+      <tr>
+        <th>Fecha</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Versión</th>
+        <td>1.0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<h4 class="text-info mt-5">📌 Especificación de los Casos de Uso</h4>
+
+<!-- Caso de Uso: Registrarse -->
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead class="table-warning text-dark">
+      <tr>
+        <th>Caso de uso</th>
+        <td>Registrarse</td>
+      </tr>
+      </thead>
+    <tbody>
+      <tr><th>Actores</th><td>Cajero</td></tr>
+      <tr><th>Tipo</th><td>Primario</td></tr>
+      <tr><th>Referencias</th><td>Requisito de seleccionar rol, requisito de validar usuario, CU Iniciar sesión</td></tr>
+      <tr><th>Precondiciones</th><td>El sistema debe ejecutarse antes de iniciar sesión, debe mostrar los campos de selección de rol, usuario y contraseña, y mostrar el botón Ingresar</td></tr>
+      <tr><th>Postcondiciones</th><td>En caso de datos erróneos, el sistema notifica al usuario advirtiendo con un máximo de 3 intentos</td></tr>
+      <tr><th>Curso normal (básico)</th><td>
+        1. ADMINISTRADOR selecciona su rol e ingresa sus datos<br>
+        2. CAJERO selecciona su rol e ingresa sus datos<br>
+        3. SISTEMA valida datos ingresados
+      </td></tr>
+      <tr><th>Autor</th><td>Desarrollador</td></tr>
+      <tr><th>Fecha</th><td></td></tr>
+      <tr><th>Versión</th><td>1.0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Proposito</td>
+      </tr>
+      </thead>
+        <td>Que el usuario ingrese al sistema de acuerdo a su rol</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Registrarse</td>
+      </tr>
+      </thead>
+        <td>El usuario hace una selección de su rol, luego ingresa sus datos. El sistema los validará de acuerdo a lo ingresado. En caso de datos incorrectos, se notificará al usuario, permitiendo un máximo de 3 intentos.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Caso de Uso: Validar usuario -->
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead class="table-warning text-dark">
+      <tr>
+        <th>Caso de uso</th>
+        <td>Validar usuario</td>
+      </tr>
+      </thead>
+    <tbody>
+      <tr><th>Actores</th><td>Cajero</td></tr>
+      <tr><th>Tipo</th><td>Primario</td></tr>
+      <tr><th>Referencias</th><td>Requisito de validar usuario de acuerdo a su rol, CU Iniciar sesión</td></tr>
+      <tr><th>Precondiciones</th><td>El sistema deberá tener un botón de iniciar sesión.</td></tr>
+      <tr><th>Postcondiciones</th><td>En caso de datos erróneos, se notificará con un aviso de datos inválidos</td></tr>
+      <tr><th>Curso normal (básico)</th><td>
+        1. USUARIO ingresa datos y da clic en el botón “Iniciar sesión”<br>
+        2. El sistema verifica los datos<br>
+        3. El sistema muestra notificación de sesión iniciada
+      </td></tr>
+      <tr><th>Autor</th><td>Desarrollador</td></tr>
+      <tr><th>Fecha</th><td></td></tr>
+      <tr><th>Versión</th><td>1.0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Caso de Uso: Seleccionar producto -->
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead class="table-warning text-dark">
+      <tr>
+        <th>Caso de uso</th>
+        <td>Selecionar Producto</td>
+      </tr>
+      </thead>
+    <tbody>
+      <tr><th>Actores</th><td>Cliente</td></tr>
+      <tr><th>Tipo</th><td>Primario</td></tr>
+      <tr><th>Referencias</th><td>Requisito de selección de producto, CU Realizar pedido</td></tr>
+      <tr><th>Precondiciones</th><td>El sistema deberá mostrar la lista de todos los productos</td></tr>
+      <tr><th>Postcondiciones</th><td>El sistema generará un código de pedido para verificación en caja</td></tr>
+      <tr><th>Curso normal (básico)</th><td>
+        1. CLIENTE ingresa al sistema<br>
+        2. El sistema muestra la lista de productos<br>
+        3. El cliente selecciona productos según sus necesidades
+      </td></tr>
+      <tr><th>Autor</th><td>Desarrollador</td></tr>
+      <tr><th>Fecha</th><td></td></tr>
+      <tr><th>Versión</th><td>1.0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Proposito</td>
+      </tr>
+      </thead>
+        <td>Validar a los usuarios de acuerdo a su rol.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Registrarse</td>
+      </tr>
+      </thead>
+        <td>El usuario una vez ingresado sus datos al iniciar sesión deberá dar clic en el botón de “Iniciar sesión” y el sistema lo validará de acuerdo a sus datos.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Caso de Uso: Generar código -->
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead class="table-warning text-dark">
+      <tr>
+        <th>Caso de uso</th>
+        <td>Generar codigo</td>
+      </tr>
+      </thead>
+    <tbody>
+      <tr><th>Actores</th><td>Cliente</td></tr>
+      <tr><th>Tipo</th><td>Primario</td></tr>
+      <tr><th>Referencias</th><td>Validar datos del cliente, número de cuenta, generar código único. CU Realizar pedido</td></tr>
+      <tr><th>Precondiciones</th><td>El sistema deberá tener un botón de "Realizar pedido"</td></tr>
+      <tr><th>Postcondiciones</th><td>En caso de datos erróneos, se mostrará aviso de datos inválidos</td></tr>
+      <tr><th>Curso normal (básico)</th><td>
+        1. CLIENTE ingresa datos básicos<br>
+        2. El sistema verifica datos<br>
+        3. El sistema muestra notificación de pedido realizado
+      </td></tr>
+      <tr><th>Autor</th><td>Desarrollador</td></tr>
+      <tr><th>Fecha</th><td></td></tr>
+      <tr><th>Versión</th><td>1.0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Proposito</td>
+      </tr>
+      </thead>
+        <td>Selección de un producto y realizar su reserva a través del sistema.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Registrarse</td>
+      </tr>
+      </thead>
+        <td>El cliente podrá seleccionar mediante el sistema la lista de productos que ofrece y de acuerdo a sus necesidades.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Caso de Uso: Verificar código -->
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead class="table-warning text-dark">
+      <tr>
+        <th>Caso de uso</th>
+        <td>Verificar codigo</td>
+      </tr>
+      </thead>
+    <tbody>
+      <tr><th>Actores</th><td>Cajero, Cliente</td></tr>
+      <tr><th>Tipo</th><td>Primario</td></tr>
+      <tr><th>Referencias</th><td>Verificación del código del cliente, generación de factura, CU Realizar pedido</td></tr>
+      <tr><th>Precondiciones</th><td>El sistema deberá tener un área de texto para el ingreso del código de pedido</td></tr>
+      <tr><th>Postcondiciones</th><td>En caso de datos erróneos, se notificará con un aviso de datos inválidos</td></tr>
+      <tr><th>Curso normal (básico)</th><td>
+        1. CLIENTE presenta el código de pedido<br>
+        2. CAJERO verifica el código en el sistema<br>
+        3. El sistema valida el código<br>
+        4. El sistema actualiza el stock<br>
+        5. El sistema muestra notificación de “Pedido realizado”
+      </td></tr>
+      <tr><th>Autor</th><td>Desarrollador</td></tr>
+      <tr><th>Fecha</th><td></td></tr>
+      <tr><th>Versión</th><td>1.0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Proposito</td>
+      </tr>
+      </thead>
+        <td>Generar un código de pedido para después hacer un canje en caja.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+      <thead class="table-warning text-dark">
+      <tr>
+        <td>Registrarse</td>
+      </tr>
+      </thead>
+        <td>El cliente deberá facilitar el código de pedido ya generado por el sistema y finalmente el cajero verificará dicho código mediante sistema para su entrega del pedido.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+        
+      </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
