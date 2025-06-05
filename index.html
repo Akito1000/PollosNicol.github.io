@@ -98,9 +98,9 @@
         Videos
       </a>
       <ul class="dropdown-menu bg-dark" aria-labelledby="marcoDropdown">
-      <li><a class="dropdown-item text-white custom-hover" href="introduccion.html">Entrevista</a></li>
-      <li><a class="dropdown-item text-white custom-hover" href="antecedenes.html">Encuesta</a></li>
-      <li><a class="dropdown-item text-white custom-hover" href="antecedenes.html">Preguntas</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="v1.html">Entrevista</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="v2.html">Encuesta</a></li>
+      <li><a class="dropdown-item text-white custom-hover" href="entrevista.html">Preguntas</a></li>
       </ul>
       </li>
 
@@ -118,40 +118,49 @@
 </nav>
 
 
-
-<div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
-  <div class="carousel-inner text-center">
-    <div class="carousel-item active">
-      <h1 class="display-4 fw-bold">HAMURGUESA DE RES</h1>
-      <p>La hamburguesa clásica, con carne molida de res, a menudo Angus o Wagyu por su sabor e intensidad
-        , como indica Findus Foodservices. </p>
-      <div class="mb-3">
-        <a href="menu.html" class="btn btn-outline-danger me-2">MENU</a>
-      </div>
-      <div class="position-relative d-inline-block">
-        <img src="images/food1.png" class="img-fluid" alt="Slider 1" style="max-height: 300px;">
-        
-      </div>
+<!-- 🔼 Título + Imagen -->
+<div class="container mt-4">
+  <div class="row align-items-center">
+    <!-- Columna de texto -->
+    <div class="col-md-6 text-center text-md-start">
+      <h1 class="titulo-principal">SISTEMA DE VENTAS Y PEDIDOS</h1>
+      <h2 class="subtitulo-principal">POLLOS NYCOL</h2>
     </div>
-    <div class="carousel-item">
-      <h1 class="display-4 fw-bold">SALCHIPAPA</h1>
-      <p>El plato mas destacado La salchipapa (de salchicha y papa) es una comida rápida suramericana 
-        que consiste en rodajas fritas de salchicha con papas a la francesa. </p>
-      <div class="mb-3">
-        <a href="menu.html" class="btn btn-outline-danger me-2">MENU</a>
-      </div>
-      <img src="images/salchi.png" class="img-fluid" alt="Slider 2">
-    </div>
-    <div class="carousel-item">
-      <h1 class="display-4 fw-bold">POLLO BROASTER</h1>
-      <p>El plato popular en la contidianidad boliviana es una preparacion crocante del pollo</p>
-      <div class="mb-3">
 
-        <a href="menu.html" class="btn btn-outline-danger me-2">MENU</a>
-      </div>
-      <img src="images/pollobros.png" class="img-fluid" alt="Slider 3">
+    <!-- Columna de imagen -->
+    <div class="col-md-6 text-center">
+      <img src="images/icono.png" alt="Local Nycol" class="img-fluid rounded shadow" style="max-width: 80%;">
     </div>
   </div>
+</div>
+
+<!-- 🔽 Carrusel de productos -->
+<div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner text-center">
+
+    <div class="carousel-item active">
+      <h1 class="display-4 fw-bold">HAMBURGUESA DE RES</h1>
+      <p>La hamburguesa clásica, con carne molida de res, a menudo Angus o Wagyu por su sabor e intensidad.</p>
+      <a href="menu.html" class="btn btn-outline-danger me-2">MENU</a>
+      <img src="images/food1.png" class="img-fluid" alt="Slider 1" style="max-height: 300px;">
+    </div>
+
+    <div class="carousel-item">
+      <h1 class="display-4 fw-bold">SALCHIPAPA</h1>
+      <p>La salchipapa es una comida rápida suramericana que consiste en rodajas fritas de salchicha con papas.</p>
+      <a href="menu.html" class="btn btn-outline-danger me-2">MENU</a>
+      <img src="images/salchi.png" class="img-fluid" alt="Slider 2">
+    </div>
+
+    <div class="carousel-item">
+      <h1 class="display-4 fw-bold">POLLO BROASTER</h1>
+      <p>Un plato popular en Bolivia con una preparación crocante del pollo.</p>
+      <a href="menu.html" class="btn btn-outline-danger me-2">MENU</a>
+      <img src="images/pollobros.png" class="img-fluid" alt="Slider 3">
+    </div>
+    
+  </div>
+
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
@@ -161,19 +170,7 @@
 </div>
 
 
-<div class="container text-center mt-5">
-  <ul class="nav nav-pills justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Hamurguesa</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="#">Burritos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="#">Variedad</a>
-    </li>
-  </ul>
-</div>
+
 
 
 <div class="container my-5">
@@ -189,7 +186,7 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Producto 1</h5>
-          <a href="#" class="btn btn-outline-light">Comprar</a>
+          <a href="menu.html" class="btn btn-outline-light">Comprar</a>
         </div>
       </div>
     </div>
@@ -202,7 +199,7 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Producto 2</h5>
-          <a href="#" class="btn btn-outline-light">Comprar</a>
+          <a href="menu.html" class="btn btn-outline-light">Comprar</a>
         </div>
       </div>
     </div>
@@ -215,49 +212,12 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Producto 3</h5>
-          <a href="#" class="btn btn-outline-light">Comprar</a>
+          <a href="menu.html" class="btn btn-outline-light">Comprar</a>
         </div>
       </div>
     </div>
 
-    <div class="col-md-4">
-      <div class="card text-white">
-        <div class="position-relative">
-          <img src="images/food4.png" class="card-img-top" alt="Food 4">
-          <div class="price-tag">Bs 8.00</div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Producto 4</h5>
-          <a href="#" class="btn btn-outline-light">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card text-white">
-        <div class="position-relative">
-          <img src="images/food5.png" class="card-img-top" alt="Food 5">
-          <div class="price-tag">Bs 16.00</div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Producto 5</h5>
-          <a href="#" class="btn btn-outline-light">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card text-white">
-        <div class="position-relative">
-          <img src="images/food6.png" class="card-img-top" alt="Food 6">
-          <div class="price-tag">Bs 6.00</div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Producto 6</h5>
-          <a href="#" class="btn btn-outline-light">Comprar</a>
-        </div>
-      </div>
-    </div>
+    
 
   </div>
 </div>

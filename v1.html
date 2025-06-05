@@ -9,10 +9,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
+  
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-dark text-white">
+
 
 <nav class="navbar navbar-expand-lg navbar-dark px-4">
   <a class="navbar-brand fw-bold text-warning" href="index.html">POLLOS NICOL</a>
@@ -115,113 +116,46 @@
     </div>
   </div>
 </nav>
-<div class="container mt-5">
 
-<h2 class="text-center text-warning mb-4">🧩 Diagrama de Estructura (Estructura Jerárquica del Sistema)</h2>
 
-<p>
-  Este diagrama refleja la organización funcional del sistema y puede usarse como base para planificar módulos de desarrollo o implementación.
-</p>
+  <h1 class="text-center mb-5">Entrevistas</h1>
+
+  
+
+
+
 <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <img src="images/proyecto5.png" alt="Local Nycol 1" class="img-fluid rounded shadow">
+  <div class="row justify-content-center gy-4">
+    
+    <!-- Columna 1: Entrevista al Dueño -->
+    <div class="col-md-5 mb-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h4 class="text-warning text-center mb-3">1. Entrevista al Dueño</h4>
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/U0dW24WEgvE" title="Entrevista Dueño" allowfullscreen></iframe>
           </div>
         </div>
-        </div>
+      </div>
+    </div>
 
-<h2 class="text-center text-warning mb-4">🧾 Especificación de Procesos</h2>
-
-<h4 class="text-info">1. Validar Usuario</h4>
-
-
-        <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <img src="images/proyecto6.png" alt="Local Nycol 1" class="img-fluid rounded shadow">
+    <!-- Columna 2: Entrevista a los Empleados -->
+    <div class="col-md-5 mb-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h4 class="text-warning text-center mb-3">2. Entrevista a los Empleados</h4>
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/SNcQxD8mR7o" title="Entrevista Empleados" allowfullscreen></iframe>
           </div>
         </div>
-        </div>
+      </div>
+    </div>
 
-        2. Registrar Pedido
-        <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <img src="images/proyecto7.png" alt="Local Nycol 1" class="img-fluid rounded shadow">
-          </div>
-        </div>
-        </div>
-
-        <h4 class="text-info">3. Generar Código de Pedido</h4>
-        <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <img src="images/proyecto8.png" alt="Local Nycol 1" class="img-fluid rounded shadow">
-          </div>
-        </div>
-        </div>
-
-        <h4 class="text-info">4. Guardar Pedido</h4>
-        <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <img src="images/proyecto9.png" alt="Local Nycol 1" class="img-fluid rounded shadow">
-          </div>
-        </div>
-        </div>
-
-        <h4 class="text-info">5. Emitir Factura</h4>
-        <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <img src="images/proyecto10.png" alt="Local Nycol 1" class="img-fluid rounded shadow">
-          </div>
-        </div>
-        </div>
-
-        <h2 class="text-center text-warning mb-4">📝 Planteamiento del problema</h2>
-<p>
-  Estas especificaciones reflejan cómo funciona internamente cada proceso funcional, siguiendo la lógica secuencial y estructurada del paradigma clásico. Sin embargo, este enfoque puede presentar limitaciones a la hora de manejar sistemas complejos y con gran cantidad de datos, ya que no facilita la reutilización de código ni la adaptación a cambios frecuentes en los requisitos.
-</p>
-
-<div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead class="table-dark text-center">
-      <tr>
-        <th>Elementos en DOO</th>
-        <th>Diseño Estructurado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Clases</strong> (Cliente, Cajero, Pedido)</td>
-        <td>Estructuras de datos o registros</td>
-      </tr>
-      <tr>
-        <td><strong>Métodos</strong> (registrarPedido(), validarUsuario())</td>
-        <td>Procesos o subprogramas independientes</td>
-      </tr>
-      <tr>
-        <td><strong>Mensajes entre objetos</strong></td>
-        <td>Flujos de datos entre procesos</td>
-      </tr>
-      <tr>
-        <td><strong>Encapsulamiento</strong></td>
-        <td>Separación funcional de procesos con entrada/salida clara</td>
-      </tr>
-      <tr>
-        <td><strong>Atributos de clase</strong></td>
-        <td>Campos en estructuras o archivos (datos de entrada/salida)</td>
-      </tr>
-      <tr>
-        <td><strong>Diagrama de clases</strong></td>
-        <td>Diccionario de datos + diagramas de estructura</td>
-      </tr>
-      <tr>
-        <td><strong>Casos de uso y secuencias OO</strong></td>
-        <td>Diagrama de flujo de datos (DFD) + especificación de procesos</td>
-      </tr>
-    </tbody>
-  </table>
+  </div>
 </div>
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
